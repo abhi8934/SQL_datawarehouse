@@ -136,3 +136,4 @@ DECLARE @start_time DATETIME, @end_time DATETIME, @start_bronze DATETIME, @end_b
 		PRINT '================================================'
 	END CATCH
 END
+
