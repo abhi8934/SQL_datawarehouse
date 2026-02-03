@@ -1,3 +1,12 @@
+/*
+Script purpose:- This script loads data into the coresponding tables
+from source (crm and erp) in the bronze layer (bronze schema) using bulk insert.
+
+Working:- Inserts data as it from the sourcs, trucates a table beforehand to ensure no duplicates and 
+records the time taken to complete the task (from truncating the table to inserting data)
+for each table is also recorded, in the end total time taken to load the entire bronze layer is shown.
+*/
+
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS 
 BEGIN
 DECLARE @start_time DATETIME, @end_time DATETIME, @start_bronze DATETIME, @end_bronze DATETIME;
@@ -136,4 +145,5 @@ DECLARE @start_time DATETIME, @end_time DATETIME, @start_bronze DATETIME, @end_b
 		PRINT '================================================'
 	END CATCH
 END
+
 
