@@ -1,3 +1,11 @@
+/*
+Script purpose:- This script loads data into the coresponding tables
+from bronze layer after applying transfomations and cleaning in the silver layer (silver schema).
+
+Working:- It the table to prevent duplicates and inserts a new data in its place with the applied
+transformations as per case, also the time taken to complete the task (from truncate the table to inserting data)
+for each table is also recorded, in the end total time taken to load the entire silver layer is shown.
+*/
 CREATE OR ALTER PROCEDURE silver.load_silver AS 
 BEGIN
 DECLARE @start_time DATETIME, @end_time DATETIME, @start_silver DATETIME, @end_silver DATETIME
@@ -225,4 +233,5 @@ DECLARE @start_time DATETIME, @end_time DATETIME, @start_silver DATETIME, @end_s
 		PRINT 'ERROR MESSAGE' + CAST(ERROR_NUMBER() AS NVARCHAR(50))
 		PRINT '================================================'
 	END CATCH
+
 END
