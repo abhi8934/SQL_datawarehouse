@@ -15,10 +15,10 @@ Gold    -> Analytics-ready business views
 ## Tech Stack
 
 - SQL (SQL Server)
-- ETL Pipelines
-- Star Schema Modeling
-- Data Cleaning & Transformations
-- Views for Analytics Layer
+  - ETL Pipelines
+  - Star Schema Modeling
+  - Data Cleaning & Transformations
+  - Views for Analytics Layer
 
 ## Data Modeling
 
