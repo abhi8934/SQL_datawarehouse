@@ -6,9 +6,9 @@ and transforms it, and serves analytics-ready datasets using a Medallion Archite
 
 This project follows the Medallion Architecture:
 
-Bronze  → Raw ingestion layer  
-Silver  → Cleaned & transformed data  
-Gold    → Analytics-ready business views
+Bronze  -> Raw ingestion layer  
+Silver  -> Cleaned & transformed data  
+Gold    -> Analytics-ready business views
 
 ![image alt](https://github.com/abhi8934/SQL_datawarehouse/blob/main/Medallion+architecture.png?raw=true)
 
