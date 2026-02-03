@@ -26,5 +26,5 @@ Gold    -> Analytics-ready business views
 ![image alt](https://github.com/abhi8934/SQL_datawarehouse/blob/main/Star_schema.png?raw=true)
 
 ## Links and Socials
-Hi, I am Abhimanyu Pandey 
+Hi, I am Abhimanyu Pandey this is my project on SQL DataWarehouse using Medallion architecture
 social links :- [LinkedIn](https://www.linkedin.com/in/abhimanyu-pandey-997b353a3/)
