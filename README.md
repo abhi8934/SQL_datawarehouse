@@ -1,2 +1,21 @@
 # SQL_datawarehouse
-Creating a modern data warehouse using SQL server, including ETL processes, data modeling and analytics
+A production-style data warehouse built using SQL that ingests raw data, cleans 
+and transforms it, and serves analytics-ready datasets using a Medallion Architecture.
+
+## Architecture
+
+This project follows the Medallion Architecture:
+
+Bronze  → Raw ingestion layer  
+Silver  → Cleaned & transformed data  
+Gold    → Analytics-ready business views
+
+
+
+## Tech Stack
+
+- SQL (PostgreSQL / MySQL / SQL Server)
+- ETL Pipelines
+- Star Schema Modeling
+- Data Cleaning & Transformations
+- Views for Analytics Layer
