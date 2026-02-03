@@ -10,7 +10,7 @@ Bronze  → Raw ingestion layer
 Silver  → Cleaned & transformed data  
 Gold    → Analytics-ready business views
 
-
+https://github.com/abhi8934/SQL_datawarehouse/blob/main/Medallion+architecture.png?raw=true
 
 ## Tech Stack
 
