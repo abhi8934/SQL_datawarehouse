@@ -25,3 +25,4 @@ Gold    → Analytics-ready business views
 - Designed relational schema
 - Created fact & dimension tables
 - Implemented star schema for analytics
+![image alt](https://github.com/abhi8934/SQL_datawarehouse/blob/main/Star_schema.png?raw=true)
