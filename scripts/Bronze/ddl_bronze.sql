@@ -1,5 +1,11 @@
---Creating DDL script of the bronze layer 
---Checking if the table exists 
+/*
+Script purpose:- This script creates the coresponding tables
+in the bronze layer (bronze schema).
+
+Working:- It checks whether the table with the same name exists in the system,
+if yes then it drops that, and creates a brand new table in its place with the name
+as per case, if not it just creates a new table.
+*/ 
 IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL
 	DROP TABLE bronze.crm_cust_info;
 --creating a table for crm_cust_info
@@ -80,3 +86,4 @@ CREATE TABLE bronze.erp_px_cat_g1v2
 	SUBCAT NVARCHAR(50),
 	MAINTENANCE NVARCHAR(50)
 )
+
