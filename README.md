@@ -19,3 +19,9 @@ Gold    → Analytics-ready business views
 - Star Schema Modeling
 - Data Cleaning & Transformations
 - Views for Analytics Layer
+
+## Data Modeling
+
+- Designed relational schema
+- Created fact & dimension tables
+- Implemented star schema for analytics
