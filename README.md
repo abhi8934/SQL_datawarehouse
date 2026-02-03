@@ -14,7 +14,7 @@ Gold    → Analytics-ready business views
 
 ## Tech Stack
 
-- SQL (PostgreSQL / MySQL / SQL Server)
+- SQL (SQL Server)
 - ETL Pipelines
 - Star Schema Modeling
 - Data Cleaning & Transformations
